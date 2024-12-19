@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    width: 900px;
+    height: 1150px;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.photo-panel {
+    background-image: url('245203.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-content {
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.text-content h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #333;
+}
+
+.nccu-icon {
+    align-self: flex-end;
+    width: 300px;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 570px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #cccccc;
+}
+
+.right-panel section {
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 4px;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.timeline-item .year {
+    font-weight: bold;
+    color: black;
+}
+
+.timeline-item .description {
+    color: black;
+}
+
+.homework-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.homework-list li {
+    margin-bottom: 8px;
+}
+
+.homework-list a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.homework-list a:hover {
+    text-decoration: underline;
+}
+
+.favorite-music .music-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.favorite-music img {
+    width: 25%;
+    border-radius: 4px;
+}
+music-item{
+font-size: 24px;
+    color: black;
+    margin-top: 16px;
+}
+.note {
+    font-size: 24px;
+    color: black;
+    margin-top: 12px;
+}
